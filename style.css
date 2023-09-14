@@ -1,0 +1,85 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+/* Global styles */
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif,
+    sans-serif;
+}
+
+header {
+  background-color: #595b5c;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 20px;
+  font-size: xx-large;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+main {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  opacity: 0.9;
+  backdrop-filter: blur(20px);
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #3498db;
+  color: #fff;
+}
+
+.book-description {
+  text-align: right;
+  float: right;
+  margin-right: 100px;
+  color: rgb(0, 0, 0);
+  font-family: "Galada", cursive;
+}
+#pleaseWait {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #d9eedc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  opacity: 0.9;
+  backdrop-filter: blur(20px);
+  font-family: "Galada", cursive;
+  font-size: 50px;
+}
