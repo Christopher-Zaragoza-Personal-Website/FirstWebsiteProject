@@ -83,3 +83,34 @@ footer {
   font-family: "Galada", cursive;
   font-size: 50px;
 }
+/* Form Styles */
+.visitor-form {
+  margin-left: 800px;
+  margin-top: 100px;
+  width: 350px;
+  height: 225px;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.visitor-form label,
+.visitor-form input,
+.visitor-form button {
+  display: block;
+  margin-bottom: 10px;
+}
+@media (max-width: 1024px) {
+  .virtual-room {
+      height: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .virtual-room {
+      height: 300px;
+  }
+}
